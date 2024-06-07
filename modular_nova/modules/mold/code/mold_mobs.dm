@@ -31,9 +31,9 @@
 	icon_dead = "oil_shambler"
 	speak_emote = list("crackles")
 
-	maxHealth = 150
-	health = 150
-	damage_coeff = list(BRUTE = 1, BURN = 0, TOX = 1, STAMINA = 0, OXY = 0)
+	maxHealth = 100
+	health = 100
+	damage_coeff = list(BRUTE = 1, BURN = 0.5, TOX = 1, STAMINA = 0, OXY = 0)
 	unsuitable_atmos_damage = 0
 	minimum_survivable_temperature = 0
 	maximum_survivable_temperature = INFINITY
@@ -58,7 +58,7 @@
 	/// The chance to apply fire stacks on melee hit
 	var/ignite_chance = 20
 	/// How many fire stacks to apply on hit
-	var/additional_fire_stacks = 2
+	var/additional_fire_stacks = 1
 
 /mob/living/basic/mold/oil_shambler/Initialize(mapload)
 	. = ..()
@@ -115,8 +115,8 @@
 	icon_dead = "diseased_rat_dead"
 	speak_emote = list("chitters")
 
-	maxHealth = 70
-	health = 70
+	maxHealth = 50
+	health = 50
 
 	melee_damage_lower = 7
 	melee_damage_upper = 13
@@ -180,8 +180,8 @@
 	icon_dead = "electric_mosquito_dead"
 	speak_emote = list("buzzes")
 
-	maxHealth = 70
-	health = 70
+	maxHealth = 50
+	health = 50
 
 	melee_damage_lower = 7
 	melee_damage_upper = 10
@@ -237,8 +237,8 @@
 	icon_dead = "centaur_dead"
 	speak_emote = list("groans")
 
-	maxHealth = 120
-	health = 120
+	maxHealth = 80
+	health = 80
 	unsuitable_atmos_damage = 0
 	minimum_survivable_temperature = 0
 	maximum_survivable_temperature = INFINITY
