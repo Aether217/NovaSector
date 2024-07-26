@@ -68,6 +68,7 @@
 		"Pod Jockey",
 		"Union Bitrunner",
 		"Junior Runner",
+		"Decker",
 	)
 
 /datum/job/blueshield
@@ -101,6 +102,8 @@
 		"Corrections Officer",
 		"Brig Officer",
 		"Prison Guard",
+		"Probation Officer",
+		"Correctional Case Manager",
 	)
 
 /datum/job/captain
@@ -174,6 +177,7 @@
 		"Comedian",
 		"Jester",
 		"Joker",
+		"Minstrel",
 	)
 
 /datum/job/cook
